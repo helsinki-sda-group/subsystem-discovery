@@ -14,5 +14,6 @@
 - Run `evaluation/clustering_evaluate.py`
 
 # Map visualization
-- Run `evaluation/plot_weather_maps_avg.py` (you need to download 
+- Run `evaluation/plot_weather_maps_avg.py` (you need to download the full weather dataset for this, see notes in the file)
+- Proposed model resulting map:
 ![alt text](https://github.com/helsinki-sda-group/subsystem-discovery-high-dimensional-time-series-masked-autoencoders/blob/main/output/maps/Proposed_model_avg_map.png)
