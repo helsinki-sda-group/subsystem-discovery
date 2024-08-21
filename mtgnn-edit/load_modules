@@ -1,0 +1,3 @@
+module load CUDA
+module load Python/3.9
+. venv/bin/activate

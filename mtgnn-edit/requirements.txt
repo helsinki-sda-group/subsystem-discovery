@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas
+scipy
+torch==2.2.2
+scikit_learn
+
+pyarrow
+tqdm
