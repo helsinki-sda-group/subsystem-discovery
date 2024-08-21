@@ -4,8 +4,8 @@ import pandas as pd
 
 def get_us_weather_dataloader(args, wrap_to_future_predict_dataloader):
     df = pd.read_parquet(US_WEATHER_DATA_PATH)
-    print('cropping data to 50k samples 20 sensors for testing!')
-    df = df.iloc[:10_000, :20] # lets just take 200k samples
+    #print('cropping data to 50k samples 20 sensors for testing!')
+    #df = df.iloc[:50_000, :50] # lets just take 200k samples
 
     data = df.to_numpy()
 

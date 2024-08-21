@@ -14,7 +14,7 @@ PARAMS="
                 --masked_forecast_epochs 0
                 --forecast_epochs 0
 
-                --dataset_name us_weather
+                --dataset_name pendulums 
 
                 --input_dim 256
                 --pred_len 64
