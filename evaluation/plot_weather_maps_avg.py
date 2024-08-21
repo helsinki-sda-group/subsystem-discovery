@@ -469,11 +469,6 @@ if __name__ == '__main__':
     our_adj = get_ours()[weather_idx]
     mtgnn_adj = get_mtgnns()[weather_idx]
     mutual_adj = get_mutuals()[weather_idx]
-
-    #corr_adj = get_corrs()[weather_idx][indices][:, indices]
-    # our_adj = get_ours()[weather_idx][indices][:, indices]
-    #mtgnn_adj = get_mtgnns()[weather_idx][indices][:, indices]
-    #mutual_adj = get_mutuals()[weather_idx][indices][:, indices]
     #%%
     names = [
         # ['Correlation', 10],
@@ -486,8 +481,6 @@ if __name__ == '__main__':
         ['Mutual_info', 1]
     ]
     adjacencies = [corr_adj, our_adj, mtgnn_adj, mutual_adj]
-    #adjacencies = [our_adj]
-    #aggregated_map.save(f"output/maps/aggregated_map.html")
     for [name, line_strength], adjacency in zip(names, adjacencies):
         aggregated_map, norm_strengths, station_connections = plot_aggregated_station_connections_basemap(station_coords, fiedler, df.columns, adjacency, cols_to_stations, cols_to_vars, plot_name=name, line_strength=line_strength, top_n=10)
 
