@@ -15,3 +15,4 @@
 
 # Map visualization
 - Run `evaluation/plot_weather_maps_avg.py` (you need to download 
+![alt text](https://github.com/helsinki-sda-group/subsystem-discovery-high-dimensional-time-series-masked-autoencoders/blob/main/output/maps/Proposed_model_avg_map.png)
