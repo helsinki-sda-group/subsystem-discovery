@@ -2,6 +2,8 @@
 - Download preprocessed weather dataset and MTGNN trained weights from zenodo: https://zenodo.org/records/13357396
 
 # Training
+- Note that you probably want to run the model training with JAX on a GPU (or a TPU?)
+- PyTorch is required only for the dataloaders, so its CPU version is enough
 - `pip install -r requirements.txt`
 - Either setup a script like `experiments/test.sh` or change the parameters in `run.py` and run `python run.py`
 
