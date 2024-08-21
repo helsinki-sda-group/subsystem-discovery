@@ -1,4 +1,4 @@
-# (Optional) Get the data
+# Get the data (optional)
 - Download preprocessed weather dataset and MTGNN trained weights from zenodo: https://zenodo.org/records/13357396
 
 # Training
