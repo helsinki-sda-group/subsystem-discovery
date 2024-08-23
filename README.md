@@ -20,5 +20,5 @@ Code for ECAI2024 paper: Subsystem Discovery in High-Dimensional Time-Series Usi
 - Proposed model resulting map (check `output/maps` for others)
 ![alt text](https://github.com/helsinki-sda-group/subsystem-discovery-high-dimensional-time-series-masked-autoencoders/blob/main/output/maps/Proposed_model_avg_map.png)
 
-# Cite
-TBD
+# Citation
+Coming soon!
