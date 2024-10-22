@@ -1,5 +1,8 @@
 # Code for ECAI2024 paper: Subsystem Discovery in High-Dimensional Time-Series Using Masked Autoencoders
 
+Link to full paper (open access, green button for PDF) https://ebooks.iospress.nl/volumearticle/69939
+
+
 ## Get the data (optional)
 - Download preprocessed weather dataset and MTGNN trained weights from zenodo: https://zenodo.org/records/13357396
 
