@@ -4,6 +4,7 @@ Link to full paper (open access, green button for PDF) https://ebooks.iospress.n
 
 
 ## Get the data (optional)
+- Pregenerated pendulum data is already included in the repository, in the `data` directory
 - Download preprocessed weather dataset and MTGNN trained weights from zenodo: https://zenodo.org/records/13357396
 
 ## Training
