@@ -2,9 +2,14 @@
 
 Link to full paper (open access, green button for PDF) https://ebooks.iospress.nl/volumearticle/69939
 
-
 ## Get the data (optional)
-- Pregenerated pendulum data is already included in the repository, in the `data` directory
+- 3x double pendulums code adapted from https://matplotlib.org/stable/gallery/animation/double_pendulum.html
+  - Generate more via https://github.com/helsinki-sda-group/subsystem-discovery/blob/main/dataloaders/pendulum_dataloader.py#L240-L269
+  - Pregenerated 40k steps of pendulum data already included in the repository, in the `data` directory
+
+https://github.com/user-attachments/assets/2959e95f-4713-45a8-b202-e73229169f26
+
+
 - Download preprocessed weather dataset and MTGNN trained weights from zenodo: https://zenodo.org/records/13357396
 
 ## Training
