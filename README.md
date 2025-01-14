@@ -30,4 +30,20 @@ https://github.com/user-attachments/assets/2959e95f-4713-45a8-b202-e73229169f26
 ![alt text](https://github.com/helsinki-sda-group/subsystem-discovery-high-dimensional-time-series-masked-autoencoders/blob/main/output/maps/Proposed_model_avg_map.png)
 
 ## Citation
-Coming soon!
+```
+@article{subsystem2024sarapisto,
+  title = "Subsystem Discovery in High-Dimensional Time-Series Using Masked Autoencoders",
+  keywords = "113 Computer and information sciences",
+  author = "Teemu Sarapisto and Haoyu Wei and Keijo Heljanko and Arto Klami and Laura Ruotsalainen",
+  year = "2024",
+  doi = "10.3233/FAIA240844",
+  language = "English",
+  volume = "392",
+  pages = "3031 -- 3038",
+  journal = "Frontiers in artificial intelligence and applications",
+  issn = "0922-6389",
+  publisher = "IOS PRESS",
+  note = "European Conference on Artificial Intelligence, ECAI 2024 ; Conference date: 19-10-2024 Through 24-10-2024",
+  url = "https://www.ecai2024.eu/",
+}
+```
