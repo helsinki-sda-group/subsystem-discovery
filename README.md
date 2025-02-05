@@ -2,6 +2,12 @@
 
 Link to full paper (open access, green button for PDF) https://ebooks.iospress.nl/volumearticle/69939
 
+### TL;DR
+Structure learning directly from time-series observations of up to ~2000 variables, millions of timesteps
+
+### Abstract
+Deep neural networks are increasingly used for time series tasks, yet they often struggle to interpretably model high-dimensional data. In this context, we consider the task of learning easy to understand connections between time-series variables, and organizing them into subsystems, directly from observed data. Our approach reconstructs multivariate time-series with a masked autoencoder, where all information between individual variables is mediated by a learned adjacency matrix. This intuitive pairwise relationship enables grouping of variables without prior knowledge of cluster quantity or size, and is particularly useful for analyzing complex sensor systems with unknown structural interdependencies. Our method simultaneously learns a useful signal representation and aids in understanding the underlying processes. We show that we can learn the correct subsystems from simulated data, and demonstrate identification of plausible subsystem structure from high-dimensional real-world data. In addition, we show that the model retains high predictive performance.
+
 ## Get the data (optional)
 - 3x double pendulums code adapted from https://matplotlib.org/stable/gallery/animation/double_pendulum.html
   - Generate more via https://github.com/helsinki-sda-group/subsystem-discovery/blob/main/dataloaders/pendulum_dataloader.py#L240-L269
